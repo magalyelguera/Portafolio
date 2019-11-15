@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <!-- BEGIN HEAD -->
+ <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+        <meta charset="utf-8" />
+        <title>Magaly Elguera Pumacayo | Portafolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN: BASE PLUGINS  -->
+        <link href="assets/plugins/revo-slider/css/settings.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/layers.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
+        <!-- END: BASE PLUGINS -->
+        <!-- BEGIN: PAGE STYLES -->
+        <link href="assets/plugins/ilightbox/css/ilightbox.css" rel="stylesheet" type="text/css" />
+        <!-- END: PAGE STYLES -->
+        <!-- BEGIN THEME STYLES -->
+        <link href="assets/demos/index/css/plugins.css" rel="stylesheet" type="text/css" />
+        <link href="assets/demos/index/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+        <link href="assets/demos/index/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+        <link href="assets/demos/index/css/custom.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME STYLES -->
+        <link rel="shortcut icon" href="favicon.html" /> </head>
+
+    <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+        <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
+        <!-- BEGIN: HEADER -->
+        <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile" data-minimize-offset="80">
+            <div class="c-navbar">
+                <div class="container">
+                    <!-- encabezado donde esta el menú -->
+                    <div class="c-navbar-wrapper clearfix">
+                        <div class="c-brand c-pull-left">
+                            <a href="index.html" class="c-logo">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo-inverse">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-mobile-logo"> 
+                            </a>
+                            <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                            </button>
+                            <button class="c-topbar-toggler" type="button">
+                                <i class="fa fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                        <!-- END: BRAND -->
+                        <!-- BEGIN: HOR NAV -->
+                        <!-- BEGIN: LAYOUT/HEADERS/MEGA-MENU -->
+                        <!-- BEGIN: MEGA MENU -->
+                        <!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
+                        <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
+                            <ul class="nav navbar-nav c-theme-nav">
+                                <li>
+                                    <a href="index.html#seccion0" class="c-link dropdown-toggle">Home
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    <div class="dropdown-menu c-menu-type-mega c-menu-type-fullwidth" style="min-width: auto">
+                                    </div>
+                                </li>
+                                <li class="c-menu-type-classic">
+                                    <a href="index.html#seccionx" class="c-link dropdown-toggle">Experiencia
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                        <li class="dropdown-submenu">
+                                            <a href="index.html#seccion1">Salud
+                                                <span class="c-arrow c-toggler"></span>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="index.html#seccion2">Tecnologia
+                                                <span class="c-arrow c-toggler"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="index.html#seccion2" class="c-link dropdown-toggle">Proyectos
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html#seccion3" class="c-link dropdown-toggle">Blog
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- END: MEGA MENU -->
+                        <!-- END: LAYOUT/HEADERS/MEGA-MENU -->
+                        <!-- END: HOR NAV -->
+                    </div>
+                    <!-- BEGIN: LAYOUT/HEADERS/QUICK-CART -->
+                    <!-- BEGIN: CART MENU -->  
+    
+                    <!-- END: CART MENU -->
+                    <!-- END: LAYOUT/HEADERS/QUICK-CART -->
+                </div>
+            </div>
+        </header>
+        <!-- END: HEADER -->
+        <!-- END: LAYOUT/HEADERS/HEADER-1 -->
+        <!-- BEGIN: PAGE CONTAINER -->
+        <div class="c-layout-page">
+            <!-- BEGIN: PAGE CONTENT -->
+            <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-4 -->
+            <section class="c-layout-revo-slider c-layout-revo-slider-4" dir="ltr">
+                <div class="tp-banner-container c-theme" id="seccion0">
+                    <div class="tp-banner rev_slider" data-version="5.0">
+                        <ul>
+                            <!--BEGIN: SLIDE #1 -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
+                                <img alt="" src="assets/base/img/content/backgrounds/bg-14.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+                                    data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
+                                    <h3 class="c-main-title-circle c-font-48 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> EXPERIENCIA EN SALUD
+                                        <br>COMO CIRUJANO DENTISTA</h3>
+                                </div>
+                                <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="110" data-speed="900" data-start="2000" data-transform_idle="o:1;" data-transform_in="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+                                    data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;">
+                                    <a href="index.html#seccion1" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">Ver más</a>
+                                </div>
+                            </li>
+                            <!--END -->
+                            <!--BEGIN: SLIDE #2 -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
+                                <img alt="" src="assets/base/img/content/backgrounds/bg-15.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+                                    data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
+                                    <h3 class="c-main-title-circle c-font-48 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> EXPERIENCIA EN TECNOLOGÍA
+                                        <br>COMO UX DESIGNER </h3>
+                                </div>
+                                <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="110" data-speed="900" data-start="2000" data-transform_idle="o:1;" data-transform_in="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;"
+                                    data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
+                                    <a href="index.html#seccion2" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">Ver más</a>
+                                </div>
+                            </li>
+                            <!--END -->
+                            <!--BEGIN: SLIDE #3 -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="700" data-delay="6000" data-thumb="">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img alt="" src="assets/base/img/content/backgrounds/bg-19.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="visible-xs" />
+                                <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="100%" data-videomp4="assets/base/media/video/video-2.mp4" data-videopreload="preload" data-videoloop="none"
+                                    data-forceCover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true"> 
+                                </div>
+                                <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-30" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+                                    data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
+                                    <h3 class="c-main-title-square c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> 
+                                        <br>MI BLOG</h3>
+                                </div>
+                                <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="130" data-speed="900" data-start="2000" data-transform_idle="o:1;" data-transform_in="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;"
+                                    data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
+                                    <a href="index.html#seccion3" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Ver más</a>
+                                </div>
+                            </li>
+                            <!--END -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- END: LAYOUT/SLIDERS/REVO-SLIDER-4 -->
+            <!-- BEGIN: CONTENT/FEATURES/FEATURES-1 -->
+            <div class="c-content-box c-size-md c-bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="c-content-feature-1 wow animate fadeInUp">
+                                <div class="c-content-line-icon c-theme c-icon-screen-chart">
+                                </div>
+                                <h3 class="c-font-uppercase c-font-bold">FOTALEZA 1 Perseverancia</h3>
+                                <p class="c-font-thin">Me considero una mujer luchadora y perseverante,
+                                    porque creo firmemente en que la constancia es un pilar inquebrantable y
+                                    esencial para el logro de metas.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="c-content-feature-1 wow animate fadeInUp" data-wow-delay="0.2s">
+                                <div class="c-content-line-icon c-theme c-icon-support"></div>
+                                <h3 class="c-font-uppercase c-font-bold">FORTALEZA 2 Versatilidad</h3>
+                                <p class="c-font-thin">Una de mis fortalezas que he logrado desarrollar al trabajar 
+                                    en equipo en diferentes roles es la versatilidad, ya que es la capacidad 
+                                    de liderar y seguir a un lider.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 c-card">
+                            <div class="c-content-feature-1 wow animate fadeInUp" data-wow-delay="0.4s">
+                                <div class="c-content-line-icon c-theme c-icon-bulb"></div>
+                                <h3 class="c-font-uppercase c-font-bold">FORTALEZA 3 Creatividad</h3>
+                                <p class="c-font-thin">Me fascina el arte de crear e innovar, considero que 
+                                    son herramientas muy importantes en todo tipo de proyectos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/FEATURES/FEATURES-1 -->
+            <!-- BEGIN: CONTENT/MISC/WHY-CHOOSE-US-1 -->
+                      <div class="c-content-box c-size-lg c-bg-grey-1" id="seccion1">
+                            <div class="container">
+                                    <div class="c-content-title-1 wow animate fadeInDown">
+                                            <h3 class="c-font-uppercase c-center c-font-bold">Magaly Elguera Pumacayo</h3>
+                                            <div class="c-line-center"></div>
+                                        </div>
+                                <div class="">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="c-content-feature-5">
+                                                <img class="c-photo img-responsive wow animate fadeInUp" width="500" alt="" src="assets/base/img/content/misc/jango-intro-2.jpg" /> </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="c-content-accordion-1 c-theme wow animate fadeInRight">
+                                                <div class="panel-group"  role="tablist">
+                                                    <div class="panel">
+                                                        <div class="panel-heading" role="tab" >
+                                                            <h4 class="panel-title">
+                                                                <a class="c-font-bold c-font-uppercase c-font-19" >Cirujano Dentista COP: 38967
+                                                                        <br/>UX Designer - Laboratoria</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div  class=" collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                            <div class="panel-body c-font-18"> Hola¡ soy Magaly, una mujer apasionada por la tecnología y ciencias de la salud; mi experiencia en salud como Cirujano Dentista inició trabajando en consultorios dentales particulares así mismo laborando en la ciudad de Cajamarca, donde fuí coordinadora de la estrategia en Salud Bucal, además de experiencia en atención al cliente y caja. Actualmente realizo diseño centrado en el usuario en distintos proyectos para empresas de emprendedores (textil, financiero y salud). Dominio de idioma quechua y habilidades en manejo de Ms. Office y herramientas de diseño. Tengo interés de seguir aprendiendo y perfeccionando mis conocimientos en UX Designer así mismo ser parte de la transformación digital.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="https://docs.google.com/document/d/161s3ylIvBhLfxab-wGzBMNcAovBbDik3BXp8UJgJTmE/edit" > 
+                                            <button type="submit" class="btn c-btn-uppercase btn-md c-btn-bold c-btn-square c-theme-btn wow animate fadeIn">Descargar CV</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+            <!-- END: CONTENT/MISC/WHY-CHOOSE-US-1 -->
+            <!-- BEGIN: CONTENT/TILES/TILE-3 -->
+            <div class="c-content-box c-size-md c-bg-white" id="seccion2">
+                <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+                    <div class="c-content-title-1 wow animate fadeInDown">
+                        <h3 class="c-font-uppercase c-center c-font-bold">Proyectos</h3>
+                        <div class="c-line-center"></div>
+                    </div>
+                    <div class="row wow animate fadeInUp">
+                        <div class="col-md-6">
+                            <div class="c-content-tile-1 c-bg-green">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                            <div class="c-wrapper">
+                                                <div class="c-body c-center">
+                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white">Kiru Assistant</h3>
+                                                    <p class="c-tile-body c-font-white">Aplicativo para dentistas y pacientes, donde trabajé como Ux Designer, fue
+                                                        una experiencia donde aprendí muchísimo el valor del trabajo en equipo  multidisciplinario.
+                                                    </p>
+                                                    <a href="https://www.figma.com/proto/ocOt5gX2zUKHZZdvQPTUmE/Kiru-Assistant?node-id=2731%3A58&scaling=min-zoom" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-arrow-right c-arrow-green c-content-overlay">
+                                            <div class="c-overlay-wrapper">
+                                                <div class="c-overlay-content">
+                                                    <a href="https://www.figma.com/proto/ocOt5gX2zUKHZZdvQPTUmE/Kiru-Assistant?node-id=2731%3A58&scaling=min-zoom">
+                                                        <i class="icon-link"></i>
+                                                    </a>
+                                                    <a href="assets/base/img/content/stock/79.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                        <i class="icon-magnifier"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/stock/79.jpg)"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="c-content-tile-1 c-bg-brown-2">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                            <div class="c-wrapper">
+                                                <div class="c-body c-center">
+                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> App Financiera</h3>
+                                                    <p class="c-tile-body c-font-white">Rediseño del app de un banco, donde se inició con una investigación y un exahustivo análisis de datos 
+                                                        para continuar con testeos online y presencial, de esta manera iniciar un rediseño y volver a testear para finalizar con una solución centrada en las necesaidades del usuario.
+                                                        
+                                                    </p>
+                                                    <a href="https://www.figma.com/file/JPWxPcgqELnOeW319yQsCa/proyecto-2-banca-(Copy)" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
+                                            <div class="c-overlay-wrapper">
+                                                <div class="c-overlay-content">
+                                                    <a href="https://www.figma.com/file/JPWxPcgqELnOeW319yQsCa/proyecto-2-banca-(Copy)">
+                                                        <i class="icon-link"></i>
+                                                    </a>
+                                                    <a href="assets/base/img/content/stock/90.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                        <i class="icon-magnifier"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/stock/90.jpg)"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="c-content-tile-1 c-bg-red-2">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
+                                            <div class="c-overlay-wrapper">
+                                                <div class="c-overlay-content">
+                                                    <a href="https://www.figma.com/file/PSzvXRKcuqi9d0avB6XXUz/USER-FLOW">
+                                                        <i class="icon-link"></i>
+                                                    </a>
+                                                    <a href="assets/base/img/content/stock/41.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                        <i class="icon-magnifier"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/stock/41.jpg)"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                            <div class="c-wrapper">
+                                                <div class="c-body c-center">
+                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> E- commerce  </h3>
+                                                    <p class="c-tile-body c-font-white">Un proyecto realizado para un emprendimiento de confección textil, donde las
+                                                         ventas solo se realizaban por facebook. Se inició con una amplia investigación hasta terminar en un prototipo 
+                                                        de alta fidelidad en figma (herramienta de diseño), sin embargo los testeos fueron clave para el éxito del proyecto, una experiencia muy enriquecedora.</p>
+                                                    <a href="https://www.figma.com/file/PSzvXRKcuqi9d0avB6XXUz/USER-FLOW" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">MVer más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="c-content-tile-1 c-bg-blue-3">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-arrow-left c-arrow-blue-3 c-content-overlay">
+                                            <div class="c-overlay-wrapper">
+                                                <div class="c-overlay-content">
+                                                    <a href="http://repositorio.uap.edu.pe/handle/uap/711">
+                                                        <i class="icon-link"></i>
+                                                    </a>
+                                                    <a href="assets/base/img/content/stock/78.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                        <i class="icon-magnifier"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/stock/78.jpg)"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                            <div class="c-wrapper">
+                                                <div class="c-body c-center">
+                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Trastornos témporomandibulares y su relación con el bruxismo (Proyecto de investigación) </h3>
+                                                    <p class="c-tile-body c-font-white">Como resultado, se encontró una prevalencia de TTM de 82.5%, de los cuales el 35.1% presenta el grado leve, el  29.8% moderado y el 17.5 % severo.</p>
+                                                    <a href="http://repositorio.uap.edu.pe/handle/uap/711" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/TILES/TILE-3 -->
+            <!-- BEGIN: CONTENT/ISOTOPE/GALLERY-1 -->
+            <div class="c-content-box c-size-md c-bg-img-center" style="background-image: url(assets/base/img/content/backgrounds/bg-82.jpg)"  id="seccion3">
+                <div class="container">
+                    <div class="c-content-title-1">
+                        <h3 class="c-center c-font-uppercase c-font-bold c-font-white">Blog</h3>
+                        <div class="c-line-center c-theme-bg"></div>
+                    </div>
+                    <div class="c-content-isotope-gallery c-opt-2">
+                        <div class="c-content-isotope-item wow animate zoomIn" data-wow-delay="0">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock/13.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/13.jpg" data-options="thumbnail:'../assets/base/img/content/stock/13.jpg'" data-caption="<h4>Viajar nos inspira</h4><p>Mi viaje a Cusco-Machupicchu, me llenó de nuevas energías, nueva perspectiva y mucha inspiración.</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-content-isotope-item c-item-size-double wow animate zoomIn" data-wow-delay="0.1s">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock/81.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/81.jpg" data-options="thumbnail:'../assets/base/img/content/stock/81.jpg'" data-caption="<h4>La naturaleza, un diseño perfecto</h4><p>Observar la naturaleza es como observar un trabajo de arte o un perfecto diseño.</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container wow animate zoomIn" data-wow-delay="0.2s">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock/63.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/63.jpg" data-options="thumbnail:'../assets/base/img/content/stock/63.jpg'" data-caption="<h4>La universidad</h4><p>Una de las mejores experiencias en la universidad fueron las campañas solidarias, donde la satisfacción y la gratitud nos desbordaban.</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container wow animate zoomIn" data-wow-delay="0.3s">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock/48.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/48.jpg" data-options="thumbnail:'../assets/base/img/content/stock/48.jpg'" data-caption="<h4>El atardecer del vida</h4><p>Una de las personas que más admiro es el Dr. Wayne Dyer cuando hablaba del atardecer de la vida y el sentido de la vida, aveces es mejor vivir plenamente y no solo vivir.</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container wow animate zoomIn" data-wow-delay="0.4s">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock/33.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/33.jpg" data-options="thumbnail:'../assets/base/img/content/stock/33.jpg'" data-caption="<h4>El colibrí</h4><p>Una de las fotografías que más me costó tomarla, ya que el movimiento del colibrí es impredecible y acelerada.</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-content-isotope-item c-item-size-double wow animate zoomIn" data-wow-delay="0.5s">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/content/stock4/36.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/content/stock/36.jpg" data-options="thumbnail:'../assets/base/img/content/stock4/36.jpg'" data-caption="<h4>SERUMS</h4><p>Una de mis experiencias en salud que más me ha motivado a segur el camino de la tecnología, ya que con ella podemos llegar a educar a más niños en todo el Peru..</p>">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-plus c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: PAGE CONTAINER -->
+        <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+        <a name="footer"></a>
+        <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
+            <div class="container">
+                <div class="c-prefooter c-bg-white">
+                    <div class="c-head">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="c-left">
+                                    <div class="socicon">
+                                        <a href="https://web.facebook.com/elgueramagaly" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips" data-original-title="Facebook" data-container="body"></a>
+                                        <a href="https://twitter.com/Magalyelguera" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-twitter tooltips" data-original-title="Twitter" data-container="body"></a>
+                                        <a href="https://www.youtube.com/channel/UCjCLfzp2DSC_qWpDF_hD_bQ?view_as=subscriber" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-youtube tooltips" data-original-title="Youtube" data-container="body"></a>
+                                        <a href="https://www.tumblr.com/blog/magy-things" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-tumblr tooltips" data-original-title="Tumblr" data-container="body"></a>
+                                        <a href="https://www.linkedin.com/in/magalyelguera/" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-linkedin tooltips" data-original-title="linkedin" data-container="body"></a>
+                                        <a href="https://github.com/magalyelguera" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-github tooltips" data-original-title="github" data-container="body"></a>
+                                        <a href="https://mail.google.com/mail/" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-mail tooltips" data-original-title="mail" data-container="body"></a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="c-line"></div>
+                    <div class="c-body">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="c-content-title-1 c-title-md">
+                                    <h3 class="c-title c-font-uppercase c-font-bold">Contacto</h3>
+                                    <div class="c-line-left hide"></div>
+                                </div>
+                                <div>
+                                <p class="c-address c-font-16"> Magaly Elguera Pumacayo
+                                    <br/> Teléfono: 930 462 003
+                                    <br/> Email:
+                                    <a href="mailto:elguera.magaly@gmail.com">
+                                        <span class="c-theme-color">elguera.magaly@gmail.com</span>
+                                    </a>
+                                </p>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-postfooter c-bg-dark-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 c-col">
+                            <p class="c-copyright c-font-grey">2019 &copy;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
+        <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+        <div class="c-layout-go2top">
+            <i class="icon-arrow-up"></i>
+        </div>
+        <!-- END: LAYOUT/FOOTERS/GO2TOP -->
+        <!-- BEGIN: LAYOUT/BASE/BOTTOM -->
+        <!-- BEGIN: CORE PLUGINS -->
+        <!--[if lt IE 9]>
+	<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+	<![endif]-->
+        <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
+        <script src="assets/demos/index/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
+        <!-- END: CORE PLUGINS -->
+        <!-- BEGIN: LAYOUT PLUGINS -->
+        <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="assets/plugins/typed/typed.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+        <script src="assets/plugins/js-cookie/js.cookie.js" type="text/javascript"></script>
+        <!-- END: LAYOUT PLUGINS -->
+        <!-- BEGIN: THEME SCRIPTS -->
+        <script src="assets/base/js/components.js" type="text/javascript"></script>
+        <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
+        <script src="assets/base/js/app.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function()
+            {
+                App.init(); // init core    
+            });
+        </script>
+        <!-- END: THEME SCRIPTS -->
+        <!-- BEGIN: PAGE SCRIPTS -->
+        <script src="assets/demos/default/js/scripts/revo-slider/slider-4.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/jquery.mousewheel.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/ilightbox.packed.js" type="text/javascript"></script>
+        <script src="assets/demos/default/js/scripts/pages/isotope-gallery.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="../../assets/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.html" type="text/javascript"></script>
+        <!-- END: PAGE SCRIPTS -->
+        <!-- END: LAYOUT/BASE/BOTTOM -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-64667612-1', 'themehats.com');
+        ga('send', 'pageview');
+    </script>
+    </body>
+<!-- Mirrored from themehats.com/themes/jango/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Jun 2019 00:00:52 GMT -->
+</html>
